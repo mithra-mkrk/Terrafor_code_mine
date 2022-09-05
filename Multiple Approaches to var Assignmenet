@@ -1,0 +1,12 @@
+provider "aws" {
+
+region = ""
+access_key = ""
+secert_key =""
+}
+
+resource "aws_instance" "myec2" {
+ami = ""
+instabnce_type= ""
+}
+
