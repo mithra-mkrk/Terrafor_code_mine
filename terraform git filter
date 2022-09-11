@@ -1,0 +1,5 @@
+//used to filter .terraform files while pushing to git
+
+
+
+$ git filter-branch -f --index-filter 'git rm --cached -r --ignore-unmatch .terraform/'
